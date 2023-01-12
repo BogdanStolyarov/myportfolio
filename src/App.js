@@ -7,6 +7,7 @@ import Projects from './Components/Projects Section/Projects'
 import Footer from './Components/Footer/Footer'
 import Contact from './Components/Contact Section/Contact'
 
+
 const App = () => {
 	return (
 		<>
