@@ -96,7 +96,7 @@ img {
 	top: 0;
 	left: 0;
 	z-index: -1;
-	transition: 0.2s;
+	transition: 0.5s;
 }
 
 .btn:hover::before,
