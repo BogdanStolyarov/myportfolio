@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400;600&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Advent Pro", sans-serif;
+	transition: 0.3s ease;
+}
+
+:root {
+	--primaryColor: #00eaff;
+	--primaryHover: hsl(185, 92%, 41);
+	--secondaryColor: rgb(150, 162, 188);
+	--paragraphColor: rgb(127, 127, 175);
+	--BgColor: #031a30;
+	--formColor: rgb(2, 15, 29);
+	--projectCardColor: #072340;
+	--textColor: #dae4fb;
+	--headerHeight: 3rem;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.flex {
+	display: flex;
+	align-content: center;
+}
+
+.grid {
+	display: grid;
+	align-content: center;
+}
+
+input,
+textarea {
+	font-size: 100%;
+}
+
+.section {
+	padding: 4rem 0 2rem;
+}
+
+.container {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
